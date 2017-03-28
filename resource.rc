@@ -1,0 +1,159 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_ABOUT          ICON    DISCARDABLE     "myicons\\About.ico"
+IDI_ICON_CHECK          ICON    DISCARDABLE     "myicons\\Check.ico"
+IDI_ICON_CLOSE2         ICON    DISCARDABLE     "myicons\\Close 2.ico"
+IDI_ICON_CLOSE1         ICON    DISCARDABLE     "myicons\\Close.ico"
+IDI_ICON_COPY           ICON    DISCARDABLE     "myicons\\Copy.ico"
+IDI_ICON_CUT            ICON    DISCARDABLE     "myicons\\Cut.ico"
+IDI_ICON_DELETE2        ICON    DISCARDABLE     "myicons\\Delete 2.ico"
+IDI_ICON_DELETE         ICON    DISCARDABLE     "myicons\\Delete.ico"
+IDI_ICON_DOCUMENT       ICON    DISCARDABLE     "myicons\\Document.ico"
+IDI_ICON_EXIT           ICON    DISCARDABLE     "myicons\\Exit.ico"
+IDI_ICON_HELP           ICON    DISCARDABLE     "myicons\\Help.ico"
+IDI_ICON_NEW            ICON    DISCARDABLE     "myicons\\New.ico"
+IDI_ICON_OPEN           ICON    DISCARDABLE     "myicons\\Open.ico"
+IDI_ICON_PASTE          ICON    DISCARDABLE     "myicons\\Paste.ico"
+IDI_ICON_PICTURE        ICON    DISCARDABLE     "myicons\\Picture.ico"
+IDI_ICON_PREVIEW        ICON    DISCARDABLE     "myicons\\Preview.ico"
+IDI_ICON_PRINT          ICON    DISCARDABLE     "myicons\\Printer.ico"
+IDI_ICON_REDO           ICON    DISCARDABLE     "myicons\\Redo.ico"
+IDI_ICON_REFRESH        ICON    DISCARDABLE     "myicons\\Refresh.ico"
+IDI_ICON_SAVEANDCLOSE   ICON    DISCARDABLE     "myicons\\Save and Close.ico"
+IDI_ICON_VIEW           ICON    DISCARDABLE     "myicons\\View.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ID_TOOLBARDLG DIALOGEX 0, 0, 170, 16
+STYLE WS_CHILD
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,0,0,102,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "my button1",IDC_BUTTON1,103,0,65,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    ID_TOOLBARDLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 146
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MenuInRebar MENU DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "&New...     ctrl+n",          ID_MENUITEM40006
+        MENUITEM "&Open...    ctrl+o",          ID_MENUITEM40005
+        MENUITEM "&Close...   ctrl+c",          ID_MENUITEM40007
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&Q)",                    IDCANCEL
+        POPUP "弹出菜单!!"
+        BEGIN
+            MENUITEM "菜单1",                       ID_MENUITEM40008
+            MENUITEM "菜单2",                       ID_MENUITEM40009
+        END
+    END
+    POPUP "菜单1"
+    BEGIN
+        MENUITEM "菜单项1_1",                   ID_MENUITEM40002
+        MENUITEM "菜单项1_2",                   ID_MENUITEM40003
+    END
+    POPUP "菜单3_子菜单1"
+    BEGIN
+        MENUITEM "菜单3_子菜单2",               ID_MENUITEM40010
+    END
+    POPUP "Menu4_Item1"
+    BEGIN
+        MENUITEM "Menu4_item2",                 ID_MENUITEM40011
+    END
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

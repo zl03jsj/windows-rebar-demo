@@ -1,0 +1,6 @@
+删除文件 - G:\vc6workspace\MyWinFrameWork\Release\resource.res
+删除文件 - G:\vc6workspace\MyWinFrameWork\Release\MyWinFrameWork.pch
+删除文件 - G:\vc6workspace\MyWinFrameWork\MyWinFrameWork.plg
+删除文件 - G:\vc6workspace\MyWinFrameWork\MyWinFrameWork.ncb
+删除文件 - G:\vc6workspace\MyWinFrameWork\MyWinFrameWork.opt
+删除文件 - G:\vc6workspace\MyWinFrameWork\Release\vc60.idb
